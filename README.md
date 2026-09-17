@@ -9,8 +9,8 @@ Go engines behind a C ABI, Qt on top. Self-hosted, no external services.
 
 | | |
 |---|---|
-| <a href="https://github.com/scottpeterman/omegamaps"><img src="https://raw.githubusercontent.com/scottpeterman/omegamaps/main/screenshots/about.png" width="400"></a> | **[omegamaps](https://github.com/scottpeterman/omegamaps)**<br>Topology discovery over SNMP and SSH. LLDP/CDP crawl, map viewer, draw.io export. |
-| <a href="https://github.com/scottpeterman/omegacatqt"><img src="https://raw.githubusercontent.com/scottpeterman/omegacatqt/main/screenshots/splash.png" width="400"></a> | **[OmegaCat](https://github.com/scottpeterman/omegacatqt)**<br>Read-only config and state capture: versioned store, config diffs, parsed ARP/MAC tables, search. |
+| <a href="https://github.com/scottpeterman/omegamaps"><img src="https://raw.githubusercontent.com/scottpeterman/omegamaps/main/screenshots/splash-maps.png" width="400"></a> | **[OmegaMapsQt](https://github.com/scottpeterman/omegamaps)**<br>Topology discovery over SNMP and SSH. LLDP/CDP crawl, map viewer, draw.io export. |
+| <a href="https://github.com/scottpeterman/omegacatqt"><img src="https://raw.githubusercontent.com/scottpeterman/omegacatqt/main/screenshots/splash.png" width="400"></a> | **[OmegaCatQt](https://github.com/scottpeterman/omegacatqt)**<br>Read-only config and state capture: versioned store, config diffs, parsed ARP/MAC tables, search. |
 | <a href="https://github.com/scottpeterman/omegasshqt"><img src="https://raw.githubusercontent.com/scottpeterman/omegasshqt/main/screenshots/splash-ssh.png" width="400"></a> | **[OmegaSSHQt](https://github.com/scottpeterman/omegasshqt)**<br>Terminal for network gear: SSH, telnet and serial, session tree, encrypted vault. |
 
 ### Building blocks
