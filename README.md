@@ -1,6 +1,6 @@
 <div align="center">
 
-# The Omega Suite
+# The Omega Network Suite
 
 **Native network tooling for Windows, macOS and Linux.**
 Go engines behind a C ABI, Qt on top. Self-hosted, no external services.
