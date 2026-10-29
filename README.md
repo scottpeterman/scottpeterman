@@ -1,13 +1,3 @@
-<div align="center">
-
-# The Omega Network Suite
-
-**Native network tooling for Windows, macOS and Linux.**
-Go engines behind a C ABI, Qt on top. Self-hosted, no external services.
-
-Map the network, archive what's on it, connect to any of it.
-
-</div>
 
 <div align="center">
 
