@@ -9,6 +9,22 @@ Map the network, archive what's on it, connect to any of it.
 
 </div>
 
+<div align="center">
+
+# The Omega Network Suite
+
+**Native network tooling for Windows, macOS and Linux.**
+Go engines behind a C ABI, Qt on top. Self-hosted, no external services.
+
+Map the network, archive what's on it, connect to any of it.
+
+<a href="https://apps.microsoft.com/detail/9NSMH9950K1B?mode=direct"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft"></a>
+
+**Windows gets equal standing.** All three apps install together from the Microsoft Store: no admin rights, no Python, no WSL, updates handled by the Store.
+macOS and Linux builds are on each project's Releases page.
+
+</div>
+
 | | |
 |---|---|
 | <a href="https://github.com/scottpeterman/omegamaps"><img src="https://raw.githubusercontent.com/scottpeterman/omegamaps/main/screenshots/splash-maps.png" width="400"></a> | **[OmegaMapsQt](https://github.com/scottpeterman/omegamaps)**<br>Point it at a seed device and get a map of your network. Crawls LLDP/CDP over SNMP and SSH across Junos, EOS and IOS, shows live crawl progress, and exports to draw.io. |
