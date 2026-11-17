@@ -9,7 +9,7 @@
 
 ---
 
-### [netbridgeng](https://github.com/scottpeterman/netbridgeng): your switch, rendered as a ship's bridge
+### [netbridgeng](https://github.com/scottpeterman/netbridgeng): your switch, rendered your way!
 
 <a href="https://github.com/scottpeterman/netbridgeng"><img src="https://raw.githubusercontent.com/scottpeterman/netbridgeng/main/screenshots/screenshots.gif" width="100%" alt="netbridgeng: 3D neighbor radar, port utilization skyline, chassis environment, BGP and OSPF views"></a>
 
