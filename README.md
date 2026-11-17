@@ -19,43 +19,40 @@ A switch already holds live, structured data about its neighbors, ports, sensors
 
 ---
 
-### [Secure Cartography 2](https://github.com/scottpeterman/securecartography2): network discovery and topology mapping
-
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/scottpeterman/securecartography2">Secure Cartography 2</a></h3>
+<p><i>Network discovery and topology mapping</i></p>
 <a href="https://github.com/scottpeterman/securecartography2"><img src="https://raw.githubusercontent.com/scottpeterman/securecartography2/main/screenshots/main_complete_light.png" width="100%" alt="Secure Cartography 2: completed crawl with discovered topology"></a>
-
-Seed one IP and it crawls the network over SNMP with SSH fallback, following CDP/LLDP and, optionally, BGP/OSPF/EIGRP neighbors to find the mixed-vendor links CDP and LLDP miss. Interactive map with saved layouts, exports to Draw.io, yEd, PNG, CSV and JSON. No database, no web server, no Docker.
-
-`pip install seccart2`
-
----
-
-### [netlapse](https://github.com/scottpeterman/netlapse): network state time-lapse
-
+<p>Seed one IP and it crawls over SNMP with SSH fallback, following CDP/LLDP and optionally BGP/OSPF/EIGRP neighbors to find the mixed-vendor links CDP and LLDP miss. Interactive map with saved layouts; exports to Draw.io, yEd, PNG, CSV and JSON. No database, no web server, no Docker.</p>
+<p><code>pip install seccart2</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/scottpeterman/netlapse">netlapse</a></h3>
+<p><i>Network state time-lapse</i></p>
 <a href="https://github.com/scottpeterman/netlapse"><img src="https://raw.githubusercontent.com/scottpeterman/netlapse/main/screenshots/template_lab.png" width="100%" alt="netlapse Template Lab: raw show output auto-matched to a TextFSM template with scored, parsed records"></a>
-
-An Oxidized replacement that captures any CLI output, not just configs. ARP, BGP, routes and interfaces are parsed into structured JSON, versioned, and diffed semantically: "peer went Established → Idle, prefixes 4200 → 0." One Search finds an IP, MAC, ASN or serial across the whole fleet. Serves an Oxidized-compatible API, so LibreNMS shows its configs and diffs natively. Shown: the Template Lab, where the output selects its own TextFSM template.
-
-`pip install git+https://github.com/scottpeterman/netlapse`
-
----
-
-### [terminaltelemetry2](https://github.com/scottpeterman/terminaltelemetry2): an SSH terminal with live telemetry beside it
-
-<a href="https://github.com/scottpeterman/terminaltelemetry2"><img src="https://raw.githubusercontent.com/scottpeterman/terminaltelemetry2/main/screenshots/dashboard1.png" width="100%" alt="terminaltelemetry2: terminal session with live interface, BGP, OSPF, LLDP and CPU panels"></a>
-
-Log in the way you always do, and the panels next to the terminal keep polling the device: interfaces, BGP, OSPF, LLDP, CPU, memory and top processes. Panels are plain YAML, so you can change them or write your own. Full coverage for EOS, IOS, NX-OS, Junos and Linux, with platform packs for about 40 more vendors.
-
-`pip install terminaltelemetry2` &nbsp;·&nbsp; then `tt2`
-
----
-
-### [OmegaSSH](https://github.com/scottpeterman/omegasshqt): a native terminal for Windows, macOS and Linux
-
+<p>An Oxidized replacement that captures any CLI output, not just configs. ARP, BGP, routes and interfaces are parsed to structured JSON, versioned, and diffed semantically. One Search finds an IP, MAC, ASN or serial across the fleet, and an Oxidized-compatible API puts its configs and diffs inside LibreNMS. Shown: the Template Lab, where the output selects its own TextFSM template.</p>
+<p><code>pip install git+https://github.com/scottpeterman/netlapse</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/scottpeterman/terminaltelemetry2">terminaltelemetry2</a></h3>
+<p><i>An SSH terminal with live telemetry beside it</i></p>
+<a href="https://github.com/scottpeterman/terminaltelemetry2"><img src="https://raw.githubusercontent.com/scottpeterman/terminaltelemetry2/main/screenshots/linux.png" width="100%" alt="terminaltelemetry2: terminal session with live telemetry panels"></a>
+<p>Log in the way you always do, and the panels next to the terminal keep polling the device: interfaces, BGP, OSPF, LLDP, CPU, memory and top processes. Panels are plain YAML, so you can change them or write your own. Full coverage for EOS, IOS, NX-OS, Junos and Linux, with platform packs for about 40 more vendors.</p>
+<p><code>pip install terminaltelemetry2</code> then <code>tt2</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/scottpeterman/omegasshqt">OmegaSSH</a></h3>
+<p><i>A native terminal for Windows, macOS and Linux</i></p>
 <a href="https://github.com/scottpeterman/omegasshqt"><img src="https://raw.githubusercontent.com/scottpeterman/omegasshqt/main/screenshots/btop.png" width="100%" alt="OmegaSSH running btop in a native Qt terminal"></a>
+<p>Tabbed SSH, telnet and serial sessions, a session tree, an encrypted credential vault and per-session logging, with a terminal that handles full-screen apps like btop and vim. Go engine behind a C ABI, Qt on top. Part of the Omega Network Suite below.</p>
 
-Tabbed SSH, telnet and serial sessions, a session tree, an encrypted credential vault and per-session logging, with a terminal that handles full-screen apps like btop and vim. Go engine behind a C ABI, Qt on top. Part of the Omega Network Suite below.
-
----
+</td>
+</tr>
+</table>
 
 ## The Omega Network Suite
 
