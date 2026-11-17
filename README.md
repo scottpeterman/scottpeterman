@@ -70,6 +70,19 @@ Three native apps that install together from the Microsoft Store: no admin right
 - **[anyeditqt](https://github.com/scottpeterman/anyeditqt)**: C++/Qt6 code editor with ace's 198 grammars ported to native code
 - **[AutiobooksQTa](https://github.com/scottpeterman/autiobooksqta)**: EPUB to m4b audiobooks with Kokoro TTS
 
+## Off hours: the arcade
+
+Browser games I build on Friday nights and share with my sons: vector and wireframe shooters, 3D chess, a Wolfenstein-style Normandy landing. No install, they run in the page, phones included. **[Play them](https://scottpeterman.github.io/arcade)** &nbsp;·&nbsp; [source](https://github.com/scottpeterman/arcade)
+
+<table>
+<tr>
+<td width="25%" align="center"><a href="https://scottpeterman.github.io/arcade"><img src="https://raw.githubusercontent.com/scottpeterman/arcade/main/games/deckrunner/thumb.webp" width="100%" alt="DECKRUNNER"></a><br><sub>DECKRUNNER</sub></td>
+<td width="25%" align="center"><a href="https://scottpeterman.github.io/arcade"><img src="https://raw.githubusercontent.com/scottpeterman/arcade/main/games/banrion/thumb.webp" width="100%" alt="Banrion"></a><br><sub>Banrion</sub></td>
+<td width="25%" align="center"><a href="https://scottpeterman.github.io/arcade"><img src="https://raw.githubusercontent.com/scottpeterman/arcade/main/games/normandy/thumb.webp" width="100%" alt="Normandy"></a><br><sub>Normandy</sub></td>
+<td width="25%" align="center"><a href="https://scottpeterman.github.io/arcade"><img src="https://raw.githubusercontent.com/scottpeterman/arcade/main/games/six-fleets/thumb.webp" width="100%" alt="Six Fleets"></a><br><sub>Six Fleets</sub></td>
+</tr>
+</table>
+
 ---
 
 <div align="center">
